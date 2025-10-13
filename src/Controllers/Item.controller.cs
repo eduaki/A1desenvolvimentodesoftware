@@ -25,6 +25,7 @@ namespace API.Controllers
       {
         var itens = await _context.Itens
           // .Include(i => i.tipo)
+          // .Include(i => i.tipo)
           .ToListAsync();
 
         return Ok(itens);
