@@ -10,7 +10,6 @@ namespace API.Data
     public DbSet<Item> Itens { get; set; }
     public DbSet<Requisicao> Requisicoes { get; set; }
     // public DbSet<Item> Itens { get; set; }
-    // public DbSet<Tipo> Tipos { get; set; }
-    // public DbSet<Requisicao> Requisicoes { get; set; }
+    public DbSet<Tipo> Tipos { get; set; }
   }
 }
