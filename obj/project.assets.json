@@ -3630,31 +3630,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\genesis\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\taina\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\genesis\\Desktop\\desenvolvimento-software-visual\\gerenciador_inventario.csproj",
+      "projectUniqueName": "C:\\Users\\taina\\OneDrive\\Documentos\\documentos\\c#\\desenvolvimento-software-visual\\gerenciador_inventario.csproj",
       "projectName": "gerenciador_inventario",
-      "projectPath": "C:\\Users\\genesis\\Desktop\\desenvolvimento-software-visual\\gerenciador_inventario.csproj",
-      "packagesPath": "C:\\Users\\genesis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\genesis\\Desktop\\desenvolvimento-software-visual\\obj\\",
+      "projectPath": "C:\\Users\\taina\\OneDrive\\Documentos\\documentos\\c#\\desenvolvimento-software-visual\\gerenciador_inventario.csproj",
+      "packagesPath": "C:\\Users\\taina\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\taina\\OneDrive\\Documentos\\documentos\\c#\\desenvolvimento-software-visual\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\genesis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\taina\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
