@@ -3,6 +3,7 @@ using System;
 using API.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace gerenciador_inventario.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251013135102_adicionando-tabela-requisicao")]
+    partial class adicionandotabelarequisicao
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.9");
@@ -39,19 +42,12 @@ namespace gerenciador_inventario.Migrations
                     b.ToTable("Itens");
                 });
 
-<<<<<<< HEAD
-            modelBuilder.Entity("API.Models.Tipo", b =>
-=======
             modelBuilder.Entity("API.Models.Requisicao", b =>
->>>>>>> faa8fdc0175ec27f784759c9242d9ee792089740
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-<<<<<<< HEAD
-                    b.Property<string>("Nome")
-=======
                     b.Property<DateTime>("DataRequisicao")
                         .HasColumnType("TEXT");
 
@@ -59,15 +55,11 @@ namespace gerenciador_inventario.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Status")
->>>>>>> faa8fdc0175ec27f784759c9242d9ee792089740
                         .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("ID");
 
-<<<<<<< HEAD
-                    b.ToTable("Tipos");
-=======
                     b.HasIndex("ItemID");
 
                     b.ToTable("Requisicoes");
@@ -82,7 +74,6 @@ namespace gerenciador_inventario.Migrations
                         .IsRequired();
 
                     b.Navigation("Item");
->>>>>>> faa8fdc0175ec27f784759c9242d9ee792089740
                 });
 #pragma warning restore 612, 618
         }
