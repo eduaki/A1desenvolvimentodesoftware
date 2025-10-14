@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\edual\\OneDrive\\Documentos\\faculdade\\trabalhos\\trabalhoC#\\gerenciador_inventario\\gerenciador_inventario.csproj": {}
+    "C:\\Users\\taina\\OneDrive\\Documentos\\documentos\\c#\\desenvolvimento-software-visual\\gerenciador_inventario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\edual\\OneDrive\\Documentos\\faculdade\\trabalhos\\trabalhoC#\\gerenciador_inventario\\gerenciador_inventario.csproj": {
+    "C:\\Users\\taina\\OneDrive\\Documentos\\documentos\\c#\\desenvolvimento-software-visual\\gerenciador_inventario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edual\\OneDrive\\Documentos\\faculdade\\trabalhos\\trabalhoC#\\gerenciador_inventario\\gerenciador_inventario.csproj",
+        "projectUniqueName": "C:\\Users\\taina\\OneDrive\\Documentos\\documentos\\c#\\desenvolvimento-software-visual\\gerenciador_inventario.csproj",
         "projectName": "gerenciador_inventario",
-        "projectPath": "C:\\Users\\edual\\OneDrive\\Documentos\\faculdade\\trabalhos\\trabalhoC#\\gerenciador_inventario\\gerenciador_inventario.csproj",
-        "packagesPath": "C:\\Users\\edual\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edual\\OneDrive\\Documentos\\faculdade\\trabalhos\\trabalhoC#\\gerenciador_inventario\\obj\\",
+        "projectPath": "C:\\Users\\taina\\OneDrive\\Documentos\\documentos\\c#\\desenvolvimento-software-visual\\gerenciador_inventario.csproj",
+        "packagesPath": "C:\\Users\\taina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\taina\\OneDrive\\Documentos\\documentos\\c#\\desenvolvimento-software-visual\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\edual\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\taina\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -57,6 +57,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[9.0.6, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[9.0.1, )"
             }
           },
           "imports": [
@@ -78,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
