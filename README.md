@@ -156,7 +156,7 @@ dotnet run
 ```
 
 Após executar, acesse no navegador:  
-👉 **http://localhost:5123/swagger**
+👉 **http://localhost:5116/swagger**
 
 ---
 
