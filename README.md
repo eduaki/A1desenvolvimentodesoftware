@@ -163,8 +163,6 @@ Após executar, acesse no navegador:
 ## 👨‍💻 Desenvolvido por
 
 **[Eduardo Alves](https://github.com/eduaki)**,
-**[Yasmin Faraj](https://github.com/YasminFaraj)**,
-**[Israel Ribeiro](https://github.com/israelnobre15)** e
 **[Tainara Lachowski](https://github.com/tailachowski)**  
 📚 Universidade Positivo — Projeto A2: Desenvolvimento de Software Visual  
 🗓️ **Ano:** 2025
