@@ -22,29 +22,33 @@ body {
 }
 
 .sidebar {
-	width: 220px;
-	background: var(--sidebar-bg);
-	border-right: 1px solid var(--border);
+	width: 240px;
+	background: #ffffff;
+	border-right: 1px solid #ddd;
 	padding: 20px;
+	box-sizing: border-box;
 }
 
 .sidebar h2 {
 	margin-top: 0;
-	color: var(--black);
 	font-size: 22px;
+	color: #111;
+	margin-bottom: 20px;
 }
 
 .sidebar nav a {
 	display: block;
 	padding: 10px 0;
+	color: #444;
 	text-decoration: none;
-	color: var(--text);
 	font-size: 16px;
+	transition: 0.2s;
 }
 
+.sidebar nav a:hover,
 .sidebar nav a.active {
+	color: #000;
 	font-weight: bold;
-	color: var(--black);
 }
 
 .content {
@@ -80,4 +84,29 @@ header h1 {
 	font-size: 35px;
 	font-weight: bold;
 	color: var(--primary);
+}
+
+/* ===== Tabela ===== */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+	background: white;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+table thead {
+	background: #eaeaea;
+}
+
+table th,
+table td {
+	padding: 12px;
+	border-bottom: 1px solid #ddd;
+	text-align: left;
+}
+
+table tr:hover {
+	background: #f2f2f2;
 }

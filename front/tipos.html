@@ -76,7 +76,7 @@
 				if (tipo) {
 					document.getElementById("modalTitulo").innerText = "Editar Tipo";
 					editandoId = tipo.id;
-					document.getElementById("descricao").value = tipo.descricao;
+					document.getElementById("descricao").value = tipo.nome;
 				} else {
 					document.getElementById("modalTitulo").innerText = "Novo Tipo";
 					editandoId = null;
@@ -98,13 +98,13 @@
 				dados.forEach((t) => {
 					const linha = document.createElement("tr");
 					linha.innerHTML = `
-          <td class="actions">
-            <button class="edit-btn" data-id="${t.id}">✏️</button>
-            <button class="delete-btn" data-id="${t.id}">🗑️</button>
-          </td>
-            <td>${t.id}</td>
-            <td>${t.nome}</td>
-          `;
+						<td class="actions">
+							<button class="edit-btn" data-id="${t.id}">✏️</button>
+							<button class="delete-btn" data-id="${t.id}">🗑️</button>
+						</td>
+							<td>${t.id}</td>
+							<td>${t.nome}</td>
+						`;
 					tabela.appendChild(linha);
 				});
 

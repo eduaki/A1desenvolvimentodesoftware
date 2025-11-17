@@ -153,15 +153,15 @@
 				dados.forEach((r) => {
 					const linha = document.createElement("tr");
 					linha.innerHTML = `
-          <td class="actions">
-            <button class="edit-btn" data-id="${r.id}">✏️</button>
-            <button class="delete-btn" data-id="${r.id}">🗑️</button>
-          </td>
-          <td>${r.id}</td>
-          <td>${r.iD_usuario}</td>
-          <td>${r.iD_item}</td>
-          <td>${r.dataRequisicao?.split("T")[0]}</td>
-        `;
+						<td class="actions">
+							<button class="edit-btn" data-id="${r.id}">✏️</button>
+							<button class="delete-btn" data-id="${r.id}">🗑️</button>
+						</td>
+						<td>${r.id}</td>
+						<td>${r.iD_usuario}</td>
+						<td>${r.iD_item}</td>
+						<td>${r.dataRequisicao?.split("T")[0]}</td>
+						`;
 					tabela.appendChild(linha);
 				});
 
