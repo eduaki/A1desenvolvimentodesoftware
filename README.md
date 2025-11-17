@@ -164,5 +164,5 @@ Após executar, acesse no navegador:
 
 **[Eduardo Alves](https://github.com/eduaki)**,
 **[Tainara Lachowski](https://github.com/tailachowski)**  
-📚 Universidade Positivo — Projeto A2: Desenvolvimento de Software Visual  
+📚 Universidade Positivo — Projeto A1: Desenvolvimento de Software Visual  
 🗓️ **Ano:** 2025
